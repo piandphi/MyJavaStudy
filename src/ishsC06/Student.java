@@ -1,11 +1,11 @@
 package ishsC06;
 
 public class Student {
-	String name;
-	String Id;
-	int kor;
-	int eng;
-	int mas;
+	String name = "홍길동";
+	String Id = "S001";
+	int kor = 94;
+	int eng = 80;
+	int mas = 84;
 	
 	
 	int calulateAv() {
@@ -21,7 +21,7 @@ public class Student {
 		System.out.println("수학점수 : " + mas);
 	}
 	
-	void changeId(Strng newId) {
+	void changeId(String newId) {
 		Id = newId;
 	}
 
